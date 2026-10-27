@@ -7,10 +7,12 @@ Mỗi theme đóng gói trong một hoặc hai file ZIP: bản `source` (để s
 
 **4 theme · 35 trang · 7 file ZIP**
 
+**Gallery online: <https://aquaplatinumberlitz.github.io/theme-rip/>**
+
 ## Demo
 
 Ảnh full-page của từng trang nằm trong [`docs/screenshots/`](docs/screenshots) (WebP, rộng 1440 px).
-Bản xem dạng gallery: **[docs/index.html](docs/index.html)** — mở trực tiếp hoặc bật GitHub Pages (Settings → Pages → `/docs`).
+Gallery: **<https://aquaplatinumberlitz.github.io/theme-rip/>** (nguồn: [docs/index.html](docs/index.html), GitHub Pages build từ `/docs`).
 
 | Theme | Trang | Xem trước |
 |---|---|---|
