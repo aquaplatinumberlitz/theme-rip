@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>theme-rip — gallery</title>
+<style>
+  :root { --bg:#0d0e12; --card:#16181f; --line:#262a35; --fg:#e7e9ee; --dim:#9aa1b1; --acc:#7c9cff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { padding:48px 24px 24px; max-width:1240px; margin:0 auto; }
+  h1 { margin:0 0 8px; font-size:34px; letter-spacing:-.02em; }
+  header p { margin:0; color:var(--dim); max-width:70ch; }
+  nav { position:sticky; top:0; z-index:5; background:rgba(13,14,18,.9); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
+  nav div { max-width:1240px; margin:0 auto; padding:10px 24px; display:flex; gap:8px; flex-wrap:wrap; }
+  nav a { color:var(--dim); text-decoration:none; font-size:13px; padding:6px 12px; border:1px solid var(--line); border-radius:999px; }
+  nav a:hover { color:#fff; border-color:var(--acc); }
+  main { max-width:1240px; margin:0 auto; padding:8px 24px 80px; }
+  section { padding-top:36px; }
+  h2 { font-size:24px; margin:0 0 4px; letter-spacing:-.01em; }
+  .sub { color:var(--acc); font-size:13px; margin:0 0 10px; }
+  .desc { color:var(--dim); margin:0 0 20px; max-width:80ch; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:18px; }
+  figure { margin:0; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  figure a { display:block; }
+  figure img { display:block; width:100%; height:auto; background:#fff; }
+  figcaption { padding:10px 12px; font-size:13px; display:flex; justify-content:space-between; gap:8px; color:var(--dim); }
+  figcaption b { color:var(--fg); font-weight:600; }
+  code { font-size:12px; color:var(--dim); }
+  footer { border-top:1px solid var(--line); padding:24px; color:var(--dim); font-size:12px; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>theme-rip</h1>
+  <p>4 theme website (bản dựng lại local) và ảnh full-page của toàn bộ trang. Ảnh chụp ở viewport 1440 px, chiều cao đầy đủ. Bấm vào ảnh để mở bản gốc.</p>
+</header>
+<nav><div>
+  <a href="#artcraft">ArtCraft · 24</a>
+  <a href="#doraemon">Doraemon Channel · 8</a>
+  <a href="#punktfunk">Punktfunk · 1</a>
+  <a href="#sulat-models">Sulat Models · 2</a>
+</div></nav>
+<main>
+<section id="artcraft">
+  <h2>ArtCraft</h2>
+  <p class="sub">artcraft.ai — website + studio</p>
+  <p class="desc">Bản dựng lại website ArtCraft và studio tạo ảnh/video: 24 trang tĩnh, Next.js export, media local (webm, wasm, ảnh).</p>
+  <div class="grid">
+    <figure><a href="screenshots/artcraft/home.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/home.webp" alt="Trang chủ" loading="lazy" width="1440" height="5812"></a><figcaption><b>Trang chủ</b><code>1440×5812</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps.webp" alt="Craft Apps" loading="lazy" width="1440" height="5066"></a><figcaption><b>Craft Apps</b><code>1440×5066</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-cadcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-cadcraft.webp" alt="CadCraft" loading="lazy" width="1440" height="8788"></a><figcaption><b>CadCraft</b><code>1440×8788</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-deckcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-deckcraft.webp" alt="DeckCraft" loading="lazy" width="1440" height="9182"></a><figcaption><b>DeckCraft</b><code>1440×9182</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-designcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-designcraft.webp" alt="DesignCraft" loading="lazy" width="1440" height="8822"></a><figcaption><b>DesignCraft</b><code>1440×8822</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-effectcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-effectcraft.webp" alt="EffectCraft" loading="lazy" width="1440" height="9582"></a><figcaption><b>EffectCraft</b><code>1440×9582</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-figcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-figcraft.webp" alt="FigCraft" loading="lazy" width="1440" height="10802"></a><figcaption><b>FigCraft</b><code>1440×10802</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-filmcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-filmcraft.webp" alt="FilmCraft" loading="lazy" width="1440" height="9526"></a><figcaption><b>FilmCraft</b><code>1440×9526</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-gridcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-gridcraft.webp" alt="GridCraft" loading="lazy" width="1440" height="9156"></a><figcaption><b>GridCraft</b><code>1440×9156</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-lightcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-lightcraft.webp" alt="LightCraft" loading="lazy" width="1440" height="9482"></a><figcaption><b>LightCraft</b><code>1440×9482</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-pdfcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-pdfcraft.webp" alt="PdfCraft" loading="lazy" width="1440" height="9482"></a><figcaption><b>PdfCraft</b><code>1440×9482</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-photocraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-photocraft.webp" alt="PhotoCraft" loading="lazy" width="1440" height="9556"></a><figcaption><b>PhotoCraft</b><code>1440×9556</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-soundcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-soundcraft.webp" alt="SoundCraft" loading="lazy" width="1440" height="9214"></a><figcaption><b>SoundCraft</b><code>1440×9214</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-vectorcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-vectorcraft.webp" alt="VectorCraft" loading="lazy" width="1440" height="10862"></a><figcaption><b>VectorCraft</b><code>1440×10862</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/apps-wordcraft.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/apps-wordcraft.webp" alt="WordCraft" loading="lazy" width="1440" height="9188"></a><figcaption><b>WordCraft</b><code>1440×9188</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/create-image.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/create-image.webp" alt="Studio — Image" loading="lazy" width="1440" height="900"></a><figcaption><b>Studio — Image</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/create-video.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/create-video.webp" alt="Studio — Video" loading="lazy" width="1440" height="900"></a><figcaption><b>Studio — Video</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/download.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/download.webp" alt="Download" loading="lazy" width="1440" height="2351"></a><figcaption><b>Download</b><code>1440×2351</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/faq.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/faq.webp" alt="FAQ" loading="lazy" width="1440" height="1844"></a><figcaption><b>FAQ</b><code>1440×1844</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/news.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/news.webp" alt="News" loading="lazy" width="1440" height="1360"></a><figcaption><b>News</b><code>1440×1360</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/press-kit.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/press-kit.webp" alt="Press kit" loading="lazy" width="1440" height="15597"></a><figcaption><b>Press kit</b><code>1440×15597</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/pricing.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/pricing.webp" alt="Pricing" loading="lazy" width="1440" height="2095"></a><figcaption><b>Pricing</b><code>1440×2095</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/support.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/support.webp" alt="Support" loading="lazy" width="1440" height="1304"></a><figcaption><b>Support</b><code>1440×1304</code></figcaption></figure>
+    <figure><a href="screenshots/artcraft/tutorials.webp" target="_blank" rel="noopener"><img src="thumbs/artcraft/tutorials.webp" alt="Tutorials" loading="lazy" width="1440" height="1426"></a><figcaption><b>Tutorials</b><code>1440×1426</code></figcaption></figure>
+  </div>
+</section>
+<section id="doraemon">
+  <h2>Doraemon Channel</h2>
+  <p class="sub">doraemon-channel.jp — theme theo mùa</p>
+  <p class="desc">8 trang theme Doraemon Channel (birthday, eiga, lunar_newyear, newyear, noel, normal_angel, normal_mouse, sample_test).</p>
+  <div class="grid">
+    <figure><a href="screenshots/doraemon/birthday.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/birthday.webp" alt="Birthday" loading="lazy" width="1440" height="900"></a><figcaption><b>Birthday</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/eiga.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/eiga.webp" alt="Eiga (phim)" loading="lazy" width="1440" height="900"></a><figcaption><b>Eiga (phim)</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/lunar_newyear.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/lunar_newyear.webp" alt="Lunar New Year" loading="lazy" width="1440" height="900"></a><figcaption><b>Lunar New Year</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/newyear.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/newyear.webp" alt="New Year" loading="lazy" width="1440" height="900"></a><figcaption><b>New Year</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/noel.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/noel.webp" alt="Noel" loading="lazy" width="1440" height="900"></a><figcaption><b>Noel</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/normal_angel.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/normal_angel.webp" alt="Normal — Angel" loading="lazy" width="1440" height="900"></a><figcaption><b>Normal — Angel</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/normal_mouse.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/normal_mouse.webp" alt="Normal — Mouse" loading="lazy" width="1440" height="900"></a><figcaption><b>Normal — Mouse</b><code>1440×900</code></figcaption></figure>
+    <figure><a href="screenshots/doraemon/sample_test.webp" target="_blank" rel="noopener"><img src="thumbs/doraemon/sample_test.webp" alt="Sample test" loading="lazy" width="1440" height="900"></a><figcaption><b>Sample test</b><code>1440×900</code></figcaption></figure>
+  </div>
+</section>
+<section id="punktfunk">
+  <h2>Punktfunk</h2>
+  <p class="sub">punktfunk.unom.io/en — trang chủ</p>
+  <p class="desc">Trang chủ Punktfunk dựng lại: ES modules, 5 scene Canvas 2D + WebGL2 procedural, responsive, font local.</p>
+  <div class="grid">
+    <figure><a href="screenshots/punktfunk/home-en.webp" target="_blank" rel="noopener"><img src="thumbs/punktfunk/home-en.webp" alt="Trang chủ (EN)" loading="lazy" width="1440" height="4537"></a><figcaption><b>Trang chủ (EN)</b><code>1440×4537</code></figcaption></figure>
+  </div>
+</section>
+<section id="sulat-models">
+  <h2>Sulat Models</h2>
+  <p class="sub">models.sulat.com — home + model detail</p>
+  <p class="desc">Hai trang Sulat Models (home và /models/xai-grok-45-97244c89) chạy bằng Node server, dữ liệu JSON snapshot, cảnh 3D + CSS effects.</p>
+  <div class="grid">
+    <figure><a href="screenshots/sulat-models/home.webp" target="_blank" rel="noopener"><img src="thumbs/sulat-models/home.webp" alt="Trang chủ" loading="lazy" width="1440" height="12076"></a><figcaption><b>Trang chủ</b><code>1440×12076</code></figcaption></figure>
+    <figure><a href="screenshots/sulat-models/model-grok-45.webp" target="_blank" rel="noopener"><img src="thumbs/sulat-models/model-grok-45.webp" alt="Model — xai-grok-45-97244c89" loading="lazy" width="1440" height="8544"></a><figcaption><b>Model — xai-grok-45-97244c89</b><code>1440×8544</code></figcaption></figure>
+  </div>
+</section>
+</main>
+<footer>Ảnh: Chromium headless + CDP. Nội dung và thiết kế thuộc về chủ sở hữu gốc tương ứng.</footer>
+</body></html>

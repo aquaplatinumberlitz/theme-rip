@@ -1,0 +1,317 @@
+[
+ {
+  "theme": "artcraft",
+  "name": "home",
+  "url": "http://127.0.0.1:4175/",
+  "w": 1440,
+  "h": 5812,
+  "file": "artcraft/home.webp",
+  "kb": 450.1
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps",
+  "url": "http://127.0.0.1:4175/apps/",
+  "w": 1440,
+  "h": 5066,
+  "file": "artcraft/apps.webp",
+  "kb": 410.3
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-cadcraft",
+  "url": "http://127.0.0.1:4175/apps/cadcraft/",
+  "w": 1440,
+  "h": 8788,
+  "file": "artcraft/apps-cadcraft.webp",
+  "kb": 618.1
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-deckcraft",
+  "url": "http://127.0.0.1:4175/apps/deckcraft/",
+  "w": 1440,
+  "h": 9182,
+  "file": "artcraft/apps-deckcraft.webp",
+  "kb": 644.6
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-designcraft",
+  "url": "http://127.0.0.1:4175/apps/designcraft/",
+  "w": 1440,
+  "h": 8822,
+  "file": "artcraft/apps-designcraft.webp",
+  "kb": 671.2
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-effectcraft",
+  "url": "http://127.0.0.1:4175/apps/effectcraft/",
+  "w": 1440,
+  "h": 9582,
+  "file": "artcraft/apps-effectcraft.webp",
+  "kb": 663.9
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-figcraft",
+  "url": "http://127.0.0.1:4175/apps/figcraft/",
+  "w": 1440,
+  "h": 10802,
+  "file": "artcraft/apps-figcraft.webp",
+  "kb": 729.3
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-filmcraft",
+  "url": "http://127.0.0.1:4175/apps/filmcraft/",
+  "w": 1440,
+  "h": 9526,
+  "file": "artcraft/apps-filmcraft.webp",
+  "kb": 717.0
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-gridcraft",
+  "url": "http://127.0.0.1:4175/apps/gridcraft/",
+  "w": 1440,
+  "h": 9156,
+  "file": "artcraft/apps-gridcraft.webp",
+  "kb": 653.7
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-lightcraft",
+  "url": "http://127.0.0.1:4175/apps/lightcraft/",
+  "w": 1440,
+  "h": 9482,
+  "file": "artcraft/apps-lightcraft.webp",
+  "kb": 705.0
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-pdfcraft",
+  "url": "http://127.0.0.1:4175/apps/pdfcraft/",
+  "w": 1440,
+  "h": 9482,
+  "file": "artcraft/apps-pdfcraft.webp",
+  "kb": 683.4
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-photocraft",
+  "url": "http://127.0.0.1:4175/apps/photocraft/",
+  "w": 1440,
+  "h": 9556,
+  "file": "artcraft/apps-photocraft.webp",
+  "kb": 766.6
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-soundcraft",
+  "url": "http://127.0.0.1:4175/apps/soundcraft/",
+  "w": 1440,
+  "h": 9214,
+  "file": "artcraft/apps-soundcraft.webp",
+  "kb": 694.1
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-vectorcraft",
+  "url": "http://127.0.0.1:4175/apps/vectorcraft/",
+  "w": 1440,
+  "h": 10862,
+  "file": "artcraft/apps-vectorcraft.webp",
+  "kb": 734.7
+ },
+ {
+  "theme": "artcraft",
+  "name": "apps-wordcraft",
+  "url": "http://127.0.0.1:4175/apps/wordcraft/",
+  "w": 1440,
+  "h": 9188,
+  "file": "artcraft/apps-wordcraft.webp",
+  "kb": 712.4
+ },
+ {
+  "theme": "artcraft",
+  "name": "create-image",
+  "url": "http://127.0.0.1:4175/create-image/",
+  "w": 1440,
+  "h": 900,
+  "file": "artcraft/create-image.webp",
+  "kb": 25.4
+ },
+ {
+  "theme": "artcraft",
+  "name": "create-video",
+  "url": "http://127.0.0.1:4175/create-video/",
+  "w": 1440,
+  "h": 900,
+  "file": "artcraft/create-video.webp",
+  "kb": 27.2
+ },
+ {
+  "theme": "artcraft",
+  "name": "download",
+  "url": "http://127.0.0.1:4175/download/",
+  "w": 1440,
+  "h": 2351,
+  "file": "artcraft/download.webp",
+  "kb": 102.3
+ },
+ {
+  "theme": "artcraft",
+  "name": "faq",
+  "url": "http://127.0.0.1:4175/faq/",
+  "w": 1440,
+  "h": 1844,
+  "file": "artcraft/faq.webp",
+  "kb": 90.0
+ },
+ {
+  "theme": "artcraft",
+  "name": "news",
+  "url": "http://127.0.0.1:4175/news/",
+  "w": 1440,
+  "h": 1360,
+  "file": "artcraft/news.webp",
+  "kb": 50.7
+ },
+ {
+  "theme": "artcraft",
+  "name": "press-kit",
+  "url": "http://127.0.0.1:4175/press-kit/",
+  "w": 1440,
+  "h": 15597,
+  "file": "artcraft/press-kit.webp",
+  "kb": 1616.8
+ },
+ {
+  "theme": "artcraft",
+  "name": "pricing",
+  "url": "http://127.0.0.1:4175/pricing/",
+  "w": 1440,
+  "h": 2095,
+  "file": "artcraft/pricing.webp",
+  "kb": 130.4
+ },
+ {
+  "theme": "artcraft",
+  "name": "support",
+  "url": "http://127.0.0.1:4175/support/",
+  "w": 1440,
+  "h": 1304,
+  "file": "artcraft/support.webp",
+  "kb": 42.9
+ },
+ {
+  "theme": "artcraft",
+  "name": "tutorials",
+  "url": "http://127.0.0.1:4175/tutorials/",
+  "w": 1440,
+  "h": 1426,
+  "file": "artcraft/tutorials.webp",
+  "kb": 98.8
+ },
+ {
+  "theme": "doraemon",
+  "name": "birthday",
+  "url": "http://127.0.0.1:8103/birthday/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/birthday.webp",
+  "kb": 61.6
+ },
+ {
+  "theme": "doraemon",
+  "name": "eiga",
+  "url": "http://127.0.0.1:8103/eiga/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/eiga.webp",
+  "kb": 74.2
+ },
+ {
+  "theme": "doraemon",
+  "name": "lunar_newyear",
+  "url": "http://127.0.0.1:8103/lunar_newyear/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/lunar_newyear.webp",
+  "kb": 80.3
+ },
+ {
+  "theme": "doraemon",
+  "name": "newyear",
+  "url": "http://127.0.0.1:8103/newyear/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/newyear.webp",
+  "kb": 87.3
+ },
+ {
+  "theme": "doraemon",
+  "name": "noel",
+  "url": "http://127.0.0.1:8103/noel/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/noel.webp",
+  "kb": 86.7
+ },
+ {
+  "theme": "doraemon",
+  "name": "normal_angel",
+  "url": "http://127.0.0.1:8103/normal_angel/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/normal_angel.webp",
+  "kb": 76.0
+ },
+ {
+  "theme": "doraemon",
+  "name": "normal_mouse",
+  "url": "http://127.0.0.1:8103/normal_mouse/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/normal_mouse.webp",
+  "kb": 76.2
+ },
+ {
+  "theme": "doraemon",
+  "name": "sample_test",
+  "url": "http://127.0.0.1:8103/sample_test/",
+  "w": 1440,
+  "h": 900,
+  "file": "doraemon/sample_test.webp",
+  "kb": 12.2
+ },
+ {
+  "theme": "punktfunk",
+  "name": "home-en",
+  "url": "http://127.0.0.1:8105/en/",
+  "w": 1440,
+  "h": 4537,
+  "file": "punktfunk/home-en.webp",
+  "kb": 280.3
+ },
+ {
+  "theme": "sulat-models",
+  "name": "home",
+  "url": "http://127.0.0.1:4174/",
+  "w": 1440,
+  "h": 12076,
+  "file": "sulat-models/home.webp",
+  "kb": 482.0
+ },
+ {
+  "theme": "sulat-models",
+  "name": "model-grok-45",
+  "url": "http://127.0.0.1:4174/models/xai-grok-45-97244c89",
+  "w": 1440,
+  "h": 8544,
+  "file": "sulat-models/model-grok-45.webp",
+  "kb": 593.9
+ }
+]
